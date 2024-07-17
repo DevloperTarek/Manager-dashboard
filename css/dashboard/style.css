@@ -1,0 +1,223 @@
+.sidebar_area {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 25%;
+     background: #fff;
+     box-shadow: 0 0 10px #ddd;
+     height: 100%;
+     padding: 40px;
+     overflow-y: auto;
+ }
+ 
+ ul.list_wrapper li > i,.list_bottom_wrap li > i {
+     padding-left: 31px;
+ }
+ 
+ .list_wrapper li a > i,.list_bottom_wrap li a > i {
+     font-size: 26px;
+     padding-right: 7px;
+ }
+ 
+ .list_wrapper li,.list_bottom_wrap li {
+     margin-bottom: 40px;
+     padding: 25px;
+     /* background: #EDF4FF; */
+     border-radius: 20px;
+     /* box-shadow: 0 0 5px #fff; */
+     font-size: 23px;
+     font-weight: 600;
+     /* color: #AEB9BE; */
+     text-align: left;
+     transition: .3s;
+ }
+ 
+ .logo img {
+     width: 100%;
+     margin-bottom: 90px;
+ }
+ 
+ .list_wrapper li a,.list_bottom_wrap li a{color: #AEB9BE;}
+ 
+ .list_wrapper li:hover > a {
+     color: #0561FC;
+ }
+ 
+ .list_wrapper li:hover {
+     background: #EDF4FF;
+     box-shadow: 0 0 5px #fff;
+ }
+ .devider {
+     position: relative;
+     z-index: 1;
+     width: 100%;
+     height: 2px;
+     background: #ddd;
+     margin: 30px 0;
+ }
+ 
+ .list_bottom_wrap li {
+     position: relative;
+     z-index: 1;
+     transition: .3s;
+ }
+ .list_bottom_wrap li:hover > a {
+    color: #474747;
+ }
+ 
+ .list_bottom_wrap li.active::after {
+     position: absolute;
+     top: 33px;
+     right: 5px;
+     width: 20px;
+     height: 20px;
+     background: #FB7B89;
+     content: "";
+     border-radius: 30px;
+ }
+ .dashboard_min_body_area {
+     width: 75%;
+     margin-left: 25%;
+     height: 100vh;
+     padding: 26px;
+     background-color: #F8FAFB;
+     /* overflow-y: auto; */
+     /* height: 100vh; */
+ }
+ 
+ .dashboard_user_top_area {
+     padding: 30px;
+     background-color: #fff;
+     box-shadow: 0 0 5px #ddd;
+ }
+ 
+ .dashboard_user_top_area .search_bar {
+     position: relative;
+     z-index: 1;
+ }
+ 
+ .dashboard_user_top_area .search_bar .search_icon {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 30px;
+     height: 30px;
+     /* background: #ddd; */
+     text-align: center;
+     line-height: 30px;
+ }
+ 
+ .dashboard_user_top_area .search_bar #search_box {
+     width: 100%;
+     /* padding-left: 34px; */
+     background: #F8FAFB;
+     border: 0;
+     box-shadow: 0 0 10px #ddd;
+     padding: 3px;
+     padding-left: 34px;
+     /* color: #C1CACE; */
+     border-radius: 5px;
+ }
+ 
+ .dashboard_user_top_area .search_bar #search_box::placeholder, .dashboard_user_top_area .search_bar .search_icon > i {
+     color: #C1CACE;
+ }
+ 
+ .user_right_area {
+     text-align: right;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 13px;
+ }
+ 
+ .user_right_area a > i {
+     color: #fff;
+     width: 35px;
+     height: 35px;
+     background: #E7EDF0;
+     text-align: center;
+     line-height: 35px;
+     border-radius: 10px;
+     cursor: pointer;
+     position: relative;
+ }
+ 
+ .user_right_area a.active > i::after {
+     width: 10px;
+     height: 10px;
+     background: red;
+     content: "";
+     top: -3px;
+     right: -1px;
+     position: absolute;
+     border-radius: 30px;
+ }
+ 
+ .user_right_area .user_select_area select {
+     border: none;
+     background: none;
+     cursor: pointer;
+     transition: .4s;
+ }
+ 
+ .user_right_area .user_select_area select:focus {
+     outline: none;
+ }
+ .single_item {
+     background: #fff;
+     padding: 30px 15px;
+     text-align: center;
+     position: relative;
+     border-radius: 20px;
+     box-shadow: 0 0 10px #ddd;
+ }
+ 
+ .single_item img {
+     width: 40px;
+     height: 40px;
+     object-fit: cover;
+     background: #E3F6FF;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 30px;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: 15px;
+ }
+ 
+ .single_item > p {
+     font-weight: 600;
+ }
+ 
+ .single_item .analytics_value > span {
+     background: #E3F4E3;
+     padding: 5px 15px;
+     border-radius: 30px;
+     color: #65C565;
+     font-weight: 600;
+     margin-left: 8px;
+     font-size: 11px;
+ }
+ 
+ .analytics_value {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+ }
+ 
+ .single_item .analytics_value {
+     font-weight: 700;
+     font-size: 25px;
+ }
+ 
+ .analytics_main_area {padding: 50px 0;}
+ 
+ .analytics_main_area .analytics_title h4 {
+     margin-bottom: 30px;
+ }
+ 
+ .analytics_wrapper {
+     margin-bottom: 40px;
+ }
